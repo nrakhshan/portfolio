@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Stickers/strawberry.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button onclick="homeClick()">HOME</button>
+        <button onclick="menuClick()">MENU</button>
+    </div>
+
+    <nav class="hidden" id="navBar">
+        <ul>
+            <li>
+                <a href="#about">ABOUT</a>
+            </li>
+            <li>
+                <a href="#skills">SKILLS</a>
+            </li>
+            <li>
+                <a href="#projects">PROJECTS</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        <h1 id="firstname">Nusaiba</h1>
+        <img src="Stickers/strawberry.svg" alt="A strawberry sticker" class="strawberry">
+        <img src="Stickers/popsicle.svg" alt="A popsicle sticker" class="popsicle">
+        <h1 id="lastname">Rakhshan</h1>
+    </div>
+
+    <h2 id="profession">JUNIOR DEVELOPER</h2>
+
+    <p id="about">Hello! I’m Nusaiba, a 3rd year Computer Engineering student 
+        at the University of Toronto. I am looking for a 12-16 month 
+        co-op position for the 2025-2026 year. Please feel free to reach 
+        out!</p>
+
+    <table id="skills">
+        <tr>
+            <th>SKILLS</th>
+            <th>TOOLS</th>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>Git/GitHub</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Figma</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>MATLAB</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Quartus Prime</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>ModelSim</td>
+        </tr>
+        <tr>
+            <td>Assembly</td>
+            <td>Adobe Suite</td>
+        </tr>
+        <tr>
+            <td>Verilog HDL</td>
+            <td>Procreate</td>
+        </tr>
+    </table>
+
+    <h1 class="subtitle" id="projects">PROJECTS</h1>
+
+    <div class="projects">
+        <div class="ptile" id="mapper">
+            <img src="Stickers/mapper.svg" alt="A map sticker illustration">
+            <h3>Bidesh Beacon</h3>
+            <p>A GIS application for South Asian Newcomers written in C++</p>
+        </div>
+        <div class="ptile" id="fugitive">
+            <img src="Stickers/fall.svg" alt="A leaf sticker illustration">
+            <h3>Fall Fugitive</h3>
+            <p>A car-chasing FPGA game written in C</p>
+        </div>
+        <div class="ptile" id="snack">
+            <img src="Stickers/snacktime.svg" alt="A chocolate bar sticker illustration">
+            <h3>Snacktime Slider</h3>
+            <p>An FPGA puzzle game written in Verilog HDL</p>
+        </div>
+        <div class="ptile" id="legaseed">
+            <img src="Stickers/legaseed.svg" alt="A plant sprout sticker illustration">
+            <h3>LegaSeed</h3>
+            <p>A 1-hr puzzle game made in Godot</p>
+        </div>
+    </div>
+    
+    <div class="cut">
+        <span id="scissors">&#9986;</span>
+        <hr id="cutoff">
+    </div>
+
+    <p id="footer">&#169; 2025 Nusaiba Rakhshan</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
