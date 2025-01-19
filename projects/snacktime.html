@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacktime Slider</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../stickers/snacktime.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button onclick="homeClick()">HOME</button>
+        <button onclick="menuClick()">MENU</button>
+    </div>
+
+    <nav class="hidden" id="navBar">
+        <ul>
+            <li>
+                <a href="../index.html#about">ABOUT</a>
+            </li>
+            <li>
+                <a href="../index.html#skills">SKILLS</a>
+            </li>
+            <li>
+                <a href="../index.html#projects">PROJECTS</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="columns">
+        <div class="left">
+            <img src="../images/snacktime.png" alt="A screenshot of Snacktime Slider" id="snackimg">
+            <img src="../images/snacktime.png" alt="A screenshot of Snacktime Slider" class="secondary">
+        </div>
+        <div class="right">
+            <h1 class="project">Snacktime Slider</h1>
+            
+            <div class="summary">
+                <h2 class="project">SUMMARY</h2>
+                <hr class="project">
+                <p class="project">An FPGA game 
+                    written in Verilog HDL where the player must 
+                    get the green chocolate bar out of the vending 
+                    machine and into the customer’s hand.</p>
+            </div>
+
+            <div class="topics">
+                <h2 class="project">TOPICS</h2>
+                <hr class="project">
+                <div class="tags" id="snacktags">
+                    <p class="ptag">Verilog</p>
+                    <p class="ptag">QuartusPrime</p>
+                    <p class="ptag">DE1-SoC</p>
+                    <p class="ptag">ModelSim</p>
+                    <p class="ptag">FiniteStateMachine</p>
+                    <p class="ptag">Datapath</p>
+                    <p class="ptag">VGA</p>
+                </div>
+            </div>
+
+            <div class="description">
+                <h2 class="project">DESCRIPTION</h2>
+                <hr class="project">
+                <p class="project">In this partner project, 
+                    I drew the sprites, wrote the game logic and mapped 
+                    the VGA output. The game board can be represented by 
+                    a 6x6 array where each snack occupies 2 or 3 spots and 
+                    has a unique ID. Blank spots are represented as 0. 
+                    Players can select the snack by ID using the FPGA 
+                    switches and move it in its fixed direction using buttons. 
+                    The array is updated accordingly, and then a separate module 
+                    reads the 6x6 array and outputs a 16 x  16 px sprite 
+                    corresponding to each ID. </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cut">
+        <span id="scissors">&#9986;</span>
+        <hr id="cutoff">
+    </div>
+
+    <p id="footer">&#169; 2025 Nusaiba Rakhshan</p>
+
+    <script src="projects.js"></script>
+</body>
+</html>

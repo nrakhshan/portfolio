@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegaSeed</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../stickers/legaseed.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Kalnia:wght@100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button onclick="homeClick()">HOME</button>
+        <button onclick="menuClick()">MENU</button>
+    </div>
+
+    <nav class="hidden" id="navBar">
+        <ul>
+            <li>
+                <a href="../index.html#about">ABOUT</a>
+            </li>
+            <li>
+                <a href="../index.html#skills">SKILLS</a>
+            </li>
+            <li>
+                <a href="../index.html#projects">PROJECTS</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="columns">
+        <div class="left">
+            <img src="../images/legaseed.png" alt="A screenshot of LegaSeed" id="snackimg">
+            <img src="../images/legaseed3.png" alt="A screenshot of LegaSeed" class="secondary">
+        </div>
+        <div class="right">
+            <h1 class="project">LegaSeed</h1>
+            
+            <div class="summary">
+                <h2 class="project">SUMMARY</h2>
+                <hr class="project">
+                <p class="project">A 1-hour long puzzle game made in Godot about a group of students finding treasure hidden in their school. </p>
+            </div>
+
+            <div class="topics">
+                <h2 class="project">TOPICS</h2>
+                <hr class="project">
+                <div class="tags" id="seedtags">
+                    <p class="ptag">Godot</p>
+                    <p class="ptag">GDScript</p>
+                    <p class="ptag">Procreate</p>
+                    <p class="ptag">Project Management</p>
+                    <p class="ptag">Collaboration</p>
+                    <p class="ptag">Leadership</p>
+                    <p class="ptag">Cross-Platform Development</p>
+                </div>
+            </div>
+
+            <div class="description">
+                <h2 class="project">DESCRIPTION</h2>
+                <hr class="project">
+                <p class="project">TBA </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cut">
+        <span id="scissors">&#9986;</span>
+        <hr id="cutoff">
+    </div>
+
+    <p id="footer">&#169; 2025 Nusaiba Rakhshan</p>
+
+    <script src="projects.js"></script>
+</body>
+</html>
