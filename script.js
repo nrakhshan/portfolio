@@ -31,17 +31,17 @@ function hideNav() {
 }
 
 function snackClick(){
-    location.replace("./Projects/snacktime.html");
+    location.replace("./projects/snacktime.html");
 }
 
 function fallClick(){
-    location.replace("./Projects/fugitive.html");
+    location.replace("./projects/fugitive.html");
 }
 
 function seedClick(){
-    location.replace("./Projects/legaseed.html");
+    location.replace("./projects/legaseed.html");
 }
 
 function mapClick(){
-    location.replace("./Projects/beacon.html");
+    location.replace("./projects/beacon.html");
 }
