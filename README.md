@@ -1,2 +1,2 @@
 # Portfolio
-A simple personal portfolio for tech. Lists my technical skills and introductions to some projects I've been a part of. 
+A simple personal portfolio. Includes my technical skills and my thoughts on some projects I've been a part of. 
