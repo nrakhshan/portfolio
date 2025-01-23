@@ -51,20 +51,33 @@
                 <hr class="project">
                 <div class="tags" id="falltags">
                     <p class="ptag">Assembly</p>
-                    <p class="ptag">NiosII</p>
+                    <p class="ptag">Nios II</p>
                     <p class="ptag">DE1-SoC</p>
                     <p class="ptag">VGA</p>
-                    <p class="ptag">DoubleBuffering</p>
-                    <p class="ptag">HardwareEnabledInterrupts</p>
-                    <p class="ptag">Git</p>
-                    <p class="ptag">GitHub</p>
+                    <p class="ptag">Double Buffering</p>
+                    <p class="ptag">Hardware Enabled Interrupts</p>
                 </div>
             </div>
 
             <div class="description">
                 <h2 class="project">DESCRIPTION</h2>
                 <hr class="project">
-                <p class="project">TBA</p>
+                <p class="project">Fall Fugitive is a top-down car-chasing game where the player is inside a police 
+                    car in a high-speed chase after some bank robbers. The police car is moving through all 4 lanes and 
+                    must dodge the other cars while chasing after the getaway vehicle and trying to collect bags of stolen 
+                    money that were dropped along the way. There is no time limit or destination - the player wins if they 
+                    are able to collect 10 bags of money without crashing into any cars (which would result in an immediate loss). 
+
+                    <br><br>In this partner project, we collaborated on the game logic, but worked separately on the other components 
+                    and used GitHub to share our files. My main responsibility was outputting all the components to the VGA. 
+                    Using C, it was fairly simple to write different functions to "print" different sprites to the screen, and 
+                    randomize positions and colours using function arguments. What I struggled with was implementing hardware-enabled 
+                    double buffering, to ensure our game looked smooth and had no tearing. My initial implementation had some components 
+                    disappearing when the processor switched the alternating buffer frames. 
+                    
+                    <br><br>It took a lot of debugging and rewriting to finally get it right, but in the process I gained a much deeper 
+                    understanding of how the processor really worked than if I had succeeded the first time. 
+                    </p>
             </div>
         </div>
     </div>
