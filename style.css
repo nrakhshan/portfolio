@@ -257,6 +257,7 @@ nav ul {
     border: none;
     font-size: 2rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 @media (min-width: 800px){
@@ -518,4 +519,21 @@ p.project {
 
 #bidesh img{
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 5px 3px);
+}
+
+#scrollabout {
+    display: block;
+    visibility: hidden;
+    transform: translate(0em, -10vw);
+}
+
+#scrollskills {
+    display: block;
+    visibility: hidden;
+    transform: translate(0em, -10vw);
+}
+
+#scrollprojects {
+    visibility: hidden;
+    transform: translate(0em, -1vw);
 }
