@@ -496,7 +496,7 @@ p.project {
     padding: 0.5em 1em;
 }
 
-#snackimg {
+.projimg {
     width: 100%;
 }
 
@@ -514,4 +514,8 @@ p.project {
 
 #seedtags .ptag {
     background-color: rgba(98, 183, 186, 0.7);
+}
+
+#bidesh img{
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 2px 5px 3px);
 }
